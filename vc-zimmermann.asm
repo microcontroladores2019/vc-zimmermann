@@ -16,6 +16,8 @@ INICIO:
         CLRF DIGC
         CLRF DIGD
         BSF PORTB, 5
+	BSF PORTB, 4
+	BSF PORTB, 3
    	
         MOVLW TRISD
         MOVWF FSR
